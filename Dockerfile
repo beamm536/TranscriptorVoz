@@ -33,6 +33,7 @@ RUN pip install --no-cache-dir \
     --index-url https://download.pytorch.org/whl/cpu
 # Expone el puerto del servidor Flask
 EXPOSE 5000
+#hola un nuevo comentario
 
 # Comando para iniciar la app Flask
 CMD ["python", "app.py"]
